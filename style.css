@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: url(BACKGROUND_inicio.svg);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalhoLogo{
+    height: 80px;
+}
+
+.cabecalhoMenu{
+    display: flex;
+    gap: 40px
+}
+
+.cabecalhoMenuItem{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cabecalhoMenuItemInstagram{
+    width: 20px;
+    height: 20px;
+    top: 32px;
+    
+}
+
+.cabecalhomLua{
+    width: 25.8px;
+    height: 27.53px;
+    left: 1376px;
+    top: 32.73px;
+}
+
+
