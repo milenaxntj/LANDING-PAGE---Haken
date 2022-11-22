@@ -12,42 +12,158 @@ body {
     background: url(BACKGROUND_inicio.svg);
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-}
 
 .cabecalhoLogo{
+    position: absolute;
+    width: 124px;
     height: 80px;
+    left: 161px;
+    top: 30px;
 }
 
 .cabecalhoMenu{
-    display: flex;
-    gap: 40px
+    font-family: 'Poppins', sans-serif;
 }
 
-.cabecalhoMenuItem{
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
+.cabecalhoMenuItemInicio{
+    position: absolute;
+    width: 43px;
+    height: 24px;
+    left: 884px;
+    top: 30px;
+    
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-}
-
-.cabecalhoMenuItemInstagram{
-    width: 20px;
-    height: 20px;
-    top: 32px;
+    line-height: 24px;    
+    
+    color: #000000;
     
 }
 
-.cabecalhomLua{
+.cabecalhoMenuItemCursos{
+    
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 1158px;
+    top: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.cabecalhoMenuItemConheca{
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 967px;
+    top: 30px;
+}
+
+.cabecalhoMenuItemEJ{
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 1255px;
+    top: 32px;
+}
+
+.cabecalhoMenuItemInstagram{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1316px;
+    top: 32px;
+}
+
+
+.cabecalhoLua{
+    position: absolute;
     width: 25.8px;
     height: 27.53px;
     left: 1376px;
     top: 32.73px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoPrincipalEscrito{
+    left: 160px;
+}
+
+.conteudoPrincipalEscritoTitulo{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 569px;
+    height: 46px;
+    left: 160px;
+    top: 294px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 132.5%;
+    /* or 42px */
+    
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+    color: #1F1F1F;
+    }
+
+.conteudoPrincipalEscritoSubtitulo{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 434px;
+    height: 105px;
+    left: 161px;
+    top: 353px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    
+    color: #424242;
+    
+}
+
+.conteudoPrincipalEscritoBotao{
+    font-family: 'Inter', sans-serif;
+    color: aliceblue;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 177px;
+    height: 47px;
+    left: 160px;
+    top: 483px;
+    background: #1F1F1F;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.conteudoImagemCapelo{
+    position: absolute;
+    width: 328px;
+    height: 328px;
+    left: 879px;
+    top: 242px;
 }
 
 
