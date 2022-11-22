@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
 
 * {
     margin: 0;
@@ -9,166 +11,101 @@
 
 body {
     font-size: 100%;
-    background: url(assets/BACKGROUND\ 4.svg);
-    background-size:cover;
+    margin: 0 auto;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+    min-width: 50vh;
+    padding: 73px;
+    background: #F1CB30;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    top: 90px;
 }
 
 
-.cabecalhoLogo{
-    position: absolute;
-    width: 124px;
-    height: 80px;
-    left: 161px;
-    top: 30px;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px;
+    padding-left: 46px;
+    gap: 1100px;
 }
 
 .cabecalhoMenu{
     font-family: 'Poppins', sans-serif;
-}
-
-.cabecalhoMenuItemInicio{
-    position: absolute;
-    width: 43px;
-    height: 24px;
-    left: 760px;
-    top: 35px;
-    
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;    
-    
+    font-weight: 400;
+    font-size: 14px;
     color: #000000;
-    
-}
-
-.cabecalhoMenuItemCursos{
-    
-    position: absolute;
-    width: 57px;
-    height: 24px;
-    left: 1034px;
-    top: 35px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-    color: #000000;
-}
-
-.cabecalhoMenuItemConheca{
-    position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 843px;
-    top: 35px;
-}
-
-.cabecalhoMenuItemEJ{
-    position: absolute;
-    width: 21px;
-    height: 19px;
-    left: 1131px;
-    top: 37px;    
-}
-
-.cabecalhoMenuItemInstagram{
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 1192px;
-    top: 37px;
-}
-
-.cabecalhoLua{
-    position: absolute;
-    width: 25.8px;
-    height: 30.53px;
-    left: 1252px;
-    top: 31.73px;
+    display: flex;
+    gap: 74px;
 }
 
 .conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudoPrincipal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-}
+    gap: 129px;
 
-.conteudoPrincipalEscrito{
-    left: 160px;
+  }
+  
+.conteudoPrincipalEscrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 0px;
+    padding-left: 243px;
 }
 
 .conteudoPrincipalEscritoTitulo{
+    width: 577px;
     font-family: 'Poppins', sans-serif;
-    position: absolute;
-    width: 569px;
-    height: 46px;
-    left: 160px;
-    top: 294px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 132.5%;
-    /* or 42px */
-    
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    
-    color: #1F1F1F;
-    }
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 88px;
+    color: #1F1E21;
+}
 
 .conteudoPrincipalEscritoSubtitulo{
-    font-family: 'Inter', sans-serif;
-    position: absolute;
-    width: 434px;
-    height: 105px;
-    left: 161px;
-    top: 353px;
-    
-    font-style: normal;
+    width: 533px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.02em;
-    
-    color: #424242;
-    
-    
+    display: flex;
 }
 
 .conteudoPrincipalEscritoBotao{
-    font-family: 'Inter', sans-serif;
-    color: aliceblue;
-    flex-direction: row;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 15px 30px;
-    gap: 10px;
-    
-    position: absolute;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    background: #F0C82D;
+    border: 1px solid #1F1E21;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
     width: 177px;
     height: 47px;
-    left: 160px;
-    top: 483px;
-    background: #1F1F1F;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+
 }
 
-.conteudoPrincipalEscritoBotao:hover{
-    background-color:#000000;
+.conteudoPrincipalEscritoBotao:hover {
+    background-color: #967800;
 }
 
-.conteudoImagemCapelo{
-    position: absolute;
-    width: 328px;
-    height: 328px;
-    left: 879px;
-    top: 242px;
+.conteudoPrincipalImagem{
+    height: 400px;
+    padding-left: 133px;
 }
-
 
