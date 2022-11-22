@@ -9,7 +9,8 @@
 
 body {
     font-size: 100%;
-    background: url(BACKGROUND_inicio.svg);
+    background: url(assets/BACKGROUND\ 4.svg);
+    background-size:cover;
 }
 
 
@@ -29,8 +30,8 @@ body {
     position: absolute;
     width: 43px;
     height: 24px;
-    left: 884px;
-    top: 30px;
+    left: 760px;
+    top: 35px;
     
     font-style: normal;
     font-weight: 500;
@@ -46,8 +47,8 @@ body {
     position: absolute;
     width: 57px;
     height: 24px;
-    left: 1158px;
-    top: 30px;
+    left: 1034px;
+    top: 35px;
 
     font-family: 'Poppins';
     font-style: normal;
@@ -62,33 +63,32 @@ body {
     position: absolute;
     width: 151px;
     height: 24px;
-    left: 967px;
-    top: 30px;
+    left: 843px;
+    top: 35px;
 }
 
 .cabecalhoMenuItemEJ{
     position: absolute;
     width: 21px;
     height: 19px;
-    left: 1255px;
-    top: 32px;
+    left: 1131px;
+    top: 37px;    
 }
 
 .cabecalhoMenuItemInstagram{
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 1316px;
-    top: 32px;
+    left: 1192px;
+    top: 37px;
 }
-
 
 .cabecalhoLua{
     position: absolute;
     width: 25.8px;
-    height: 27.53px;
-    left: 1376px;
-    top: 32.73px;
+    height: 30.53px;
+    left: 1252px;
+    top: 31.73px;
 }
 
 .conteudo{
@@ -137,6 +137,7 @@ body {
     
     color: #424242;
     
+    
 }
 
 .conteudoPrincipalEscritoBotao{
@@ -156,6 +157,10 @@ body {
     background: #1F1F1F;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
+
+.conteudoPrincipalEscritoBotao:hover{
+    background-color:#000000;
 }
 
 .conteudoImagemCapelo{
