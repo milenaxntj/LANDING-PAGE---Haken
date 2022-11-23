@@ -115,7 +115,7 @@ body {
 }
 
 .conhecaUtfprEscritoTitulo{
-    padding-top: 36px;
+    padding-top: 100px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 24px;
@@ -136,4 +136,22 @@ body {
  .conheçaUtfprGaleriaImagens{
     padding: 45px;
  }
+
+.conteudoConhecaUtfprVideo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.conteudoConhecaUtfprVideoTitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    height: 95px;
+    width: 408px;
+    text-align: center;
+    font-size: 26.0426px;
+}
+
+
 
