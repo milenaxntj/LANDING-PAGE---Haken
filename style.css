@@ -59,7 +59,6 @@ body {
 .conteudoPrincipal {
     position: relative;
     width: 100%;
-    min-width: 50vh;
     padding: 2%;
     background: #F1CB30;
     display: flex;
@@ -204,6 +203,7 @@ body {
     align-items: center;
     gap: 73px;
     background: #F1CB30;
+    padding: 4%;
     font-family: 'Poppins', sans-serif;
 }   
 
@@ -377,4 +377,87 @@ body {
     top: 1823px;
 }
 
+.conteudoEj{
+    padding-top: 140px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.conteudoEjTitulo{
+    color: #1E1E1E;
+    font-size: 46.2501px;
+    font-weight: 800;
+}
+
+.conteudoEjDiv{
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 58px;
+}
+
+.conteudoEjItens{
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    gap: 30px;
+    background-color: #E3E3E3;
+    padding: 2%;
+    border-radius: 10px;
+
+    
+}
+
+.conteudoEjEscrito{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conteudoEjEscritoTitulo{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 19.2709px;
+}
+
+.conteudoEjEscritoTexto{
+    font-weight: 400;
+    font-size: 15.4167px;
+    color: #1E1E1E;
+}
+
+.conteudoEjEscritoMais{
+    font-size: 13.4896px;
+    line-height: 16px;
+    color: #1E1E1E;
+}
+
+.conteudoEjDiv2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 58px;
+}
+
+.rodape{
+    background: #F1CB30;
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodapeLogo{
+    width: 208px;
+}
+
+.rodapeTexto{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 1px;
+}
