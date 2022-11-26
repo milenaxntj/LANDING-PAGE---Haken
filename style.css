@@ -31,26 +31,56 @@ body {
     color: #000000;
     display: flex;
     gap: 74px;
+    text-align: left;
+    position: absolute;
+    right: 5%;
+}
+
+@media (max-width: 850px) {
+    .cabecalhoMenu {
+        position: absolute;
+        right: 90px;
+        font-size: 15px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .cabecalhoMenu {
+        display: none;
+    }
 }
 
 .conteudo{
     display: flex;
     flex-direction: column;
-
 }
 
 .conteudoPrincipal {
     position: relative;
     width: 100%;
     min-width: 50vh;
-    padding: 63px;
+    padding: 2%;
     background: #F1CB30;
     display: flex;
-    top: 9px;
+    top: 10%;
+    align-items: center;
 }
 .conteudoPrincipalImagem{
-    height: 400px;
+    height: 10%;
     padding-left: 65%;
+}
+
+@media (max-width: 1500px) {
+    .conteudoPrincipalImagem {
+        padding-left: 20%
+    }
+}
+
+@media (max-width: 1200px) {
+    .conteudoPrincipalImagem {
+        display: none;
+    }
 }
   
 .conteudoPrincipalEscrito {
@@ -123,6 +153,11 @@ body {
     
 }
 
+.conhecaUtfprEscritoDivisao{
+    border-top: 4px solid #F0C82D;
+    width: 97px;
+}
+
 .conhecaUtfprEscritoSubtitulo{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -131,7 +166,6 @@ body {
     width: 649px;
     text-align: center;
     color: #363636;
-    border-top: 4px solid #F0C82D;
 }
  .conheçaUtfprGaleriaImagens{
     padding: 45px;
@@ -153,5 +187,136 @@ body {
     font-size: 26.0426px;
 }
 
+.conteudoConhecaUtfprVideoLink{
+    width: 716px;
+    height: 382px;
+}
+
+.separacao{
+    border-top: 140px solid #ffffff;
+    width: 95px;
+}
+
+.conteudoCursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 73px;
+    background: #F1CB30;
+    font-family: 'Poppins', sans-serif;
+}
+
+.conteudoCursosTitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #1F1E21;
+}
+
+.conteudoCursosBcc{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center ;
+    justify-content: center;
+}
 
 
+.conteudoCursosBccTitulo{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudoCursosBccTexto{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 489px;
+    height: 77px;
+}
+
+.conteudoCursosAlimentos{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoCursosAlimentosTitulo{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudoCursosAlimentosTexto{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 489px;
+    height: 77px;
+}
+
+.conteudoCursosAmbiental{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoCursosAmbientalTitulo{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudoCursosAmbientalTexto{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 489px;
+    height: 77px;
+}
+
+
+.conteudoCursosCivil{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoCursosCivilTitulo{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudoCursosCivilTexto{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 489px;
+    height: 77px;
+}
+
+
+.conteudoCursosLicenciatura{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoCursosLicenciaturaTitulo{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.conteudoCursosLicenciaturaTexto{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 489px;
+    height: 77px;
+}

@@ -10,30 +10,30 @@
 <body>
     <header class = "cabecalho">
 
-        <img class = "cabecalhoLogo" src="assets/LOGO.svg">
-        <nav class = "cabecalhoMenu">
-            <a class = cabecalhoMenuItem>Início</a>
-            <a class = cabecalhoMenuItem>Conheça a <strong>UTFPR</strong></a>
-            <a class = cabecalhoMenuItem>Cursos</a>
-            <a class = cabecalhoMenuItem>EJ</a>
+        <a href="#comeco"><img class = "cabecalhoLogo" src="assets/LOGO.svg"></a>
+        <nav class = "cabecalhoMenu" id="comeco">
+            <a href="#inicio" class = cabecalhoMenuItem>Início</a>
+            <a href="#conheca" class = cabecalhoMenuItem>Conheça a <strong>UTFPR</strong></a>
+            <a href="#cursos" class = cabecalhoMenuItem>Cursos</a>
+            <a href="#ej" class = cabecalhoMenuItem>EJ</a>
         </nav>
     </header>
-    
-    
-    <main class = "conteudo">
+   
+    <main class = "conteudo" id="inicio">
         <section class = "conteudoPrincipal">
             <div class = "conteudoPrincipalEscrito">
                 <h1 class = "conteudoPrincipalEscritoTitulo">Guia da UTFPR Campo Mourão</h1>
                 <h2 class = "conteudoPrincipalEscritoSubtitulo">Essa página é um guia feito para você, que deseja estudar em uma universidade federal conhecer melhor a Universidade Tecnológica Federal do Paraná. Veja fotos, conheça os cursos e as empresas júnior que a facultade possui!</h2>
-                <button class = "conteudoPrincipalEscritoBotao">Vamos começar!</button>
+                <a href="#conheca"><button class = "conteudoPrincipalEscritoBotao">Vamos começar!</button></a>
             </div>
             <div>
                 <img class = "conteudoPrincipalImagem" src="assets/Group.svg">
             </div>
         </section>
-        <section class = "conhecaUtfpr">
+        <section class = "conhecaUtfpr" id="conheca">
             <div class = "conhecaUtfprEscrito">
                 <h1 class = "conhecaUtfprEscritoTitulo">Saiba mais sobre a UTFPR - CM!!</h1>
+                <div class = "conhecaUtfprEscritoDivisao"></div>
                 <h2 class = "conhecaUtfprEscritoSubtitulo">Situada em Campo Mourão, Paraná a UTFPR possui Ensino Técnico, Graduação, Especializações, Mestrado e Doutoerado.</h2>
             </div>
             <div class = "conheçaUtfprGaleria">
@@ -43,9 +43,56 @@
 
             </div>
             <div class = "conteudoConhecaUtfprVideo">
-                <h1 class = "conteudoConhecaUtfprVideoTitulo">Confira abaixo um video da <strong>UTFPR - Campo Mourão</strong></h1>
-                <iframe width="500" height="400" src="https://www.youtube.com/watch?v=9QVKVuefteU"> </iframe>
+                  <h1 class = "conteudoConhecaUtfprVideoTitulo">Confira abaixo um video da <strong>UTFPR - Campo Mourão</strong></h1>
+                <iframe class="conteudoConhecaUtfprVideoLink" width="1456" height="539" src="https://www.youtube.com/embed/9QVKVuefteU" title="UTFPR-CAMPO MOURÃO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             </div>
+        </section>
+        <div class="separacao"></div>
+        <section class="conteudoCursos">
+            <img>
+            <h1 class="conteudoCursosTitulo">Cursos</h1>
+            <div class="conteudoCursosBcc">
+                <img class="conteudoCursosBccImagem" src="assets/bcc.svg">
+                <img class="conteudoCursosBccDivisao" src="assets/Line 13.svg">
+                <div>
+                    <h1 class="conteudoCursosBccTitulo">Ciência da computação</h1>
+                    <h2 class="conteudoCursosBccTexto">O curso de Ciência da Computação forma profissionais qualificados para desenvolver programas e sistemas de informática, desde o planejamento do projeto até a implantação e gerenciamento do software.</h2>
+                </div>
+
+            </div>
+            <div class="conteudoCursosAlimentos">
+                <img class="conteudoCursosAlimentosImagem" src="assets/alimentos.svg">
+                <img class="conteudoCursosAlimentosDivisao" src="assets/Line 13.svg">
+                <div>
+                    <h1 class="conteudoCursosAlimentosTitulo">Engenharia de Alimentos</h1>
+                    <h2 class="conteudoCursosAlimentosTexto">O curso de Engenharia de Alimentos forma profissionais que lidam com a industrialização do alimento. Eles estão presentes em todas as etapas produtivas, desde a escolha da matéria-prima até a comercialização.</h2>
+                </div>
+            </div>
+            <div class="conteudoCursosAmbiental">
+                <img class="conteudoCursosAmbientalImagem" src="assets/ambiental.svg">
+                <img class="conteudoCursosAlimentosDivisao" src="assets/Line 13.svg">
+                <div>
+                    <h1 class="conteudoCursosAmbientalTitulo">Engenharia Ambiental</h1>
+                    <h2 class="conteudoCursosAmbientalTexto">Engenharia Ambiental é uma graduação voltada para o desenvolvimento sustentável, o principal objetivo é desenvolver técnicas de preservação do ar, da água e do solo.</h2>
+                </div>
+            </div>
+            <div class="conteudoCursosCivil">
+                <img class="conteudoCursosCivilImagem" src="assets/alimentos.svg">
+                <img class="conteudoCursosCivilDivisao" src="assets/Line 13.svg">
+                <div>
+                    <h1 class="conteudoCursosCivilTitulo">Engenharia Civil</h1>
+                    <h2 class="conteudoCursosCivilTexto">O curso de Engenharia Civil é uma das mais tradicionais modalidades da Engenharia e forma profissionais capazes de elaborar, executar e fiscalizar projetos e obras como casas, prédios, pontes, viadutos, estradas e barragens.</h2>
+                </div>
+            </div>
+            <div class="conteudoCursosLicenciatura">
+                <img class="conteudoCursosLicenciaturaImagem" src="assets/licenciatura.svg">
+                <img class="conteudoCursosLicenciaturaDivisao" src="assets/Line 13.svg">
+                <div>
+                    <h1 class="conteudoCursosLicenciaturaTitulo">Licenciatura em Alimentos</h1>
+                    <h2 class="conteudoCursosLicenciaturaTexto">O curso de Licenciatura em Química prepara para o ensino da disciplina em sala de aula. Os alunos aprendem a transmitir conhecimentos sobre a área utilizando processos químicos que ocorrem o tempo todo na natureza.</h2>
+                </div>
+            </div>
+
         </section>
     </main>
 
