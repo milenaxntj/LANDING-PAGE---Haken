@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia UTFPR</title>
     <link rel = "stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header class = "cabecalho">
 
-        <a href="#comeco"><img class = "cabecalhoLogo" src="assets/LOGO.svg"></a>
-        <nav class = "cabecalhoMenu" id="comeco">
-            <a href="#inicio" class = cabecalhoMenuItem>Início</a>
-            <a href="#conheca" class = cabecalhoMenuItem>Conheça a <strong>UTFPR</strong></a>
-            <a href="#cursos" class = cabecalhoMenuItem>Cursos</a>
-            <a href="#ej" class = cabecalhoMenuItem>EJ</a>
-        </nav>
+    <div class="iconesDarkMode">
+        <img src="assets/moon.svg" class="iconeLua">
+        <img src="assets/sun1.svg" class="iconeSol">
+    </div>
+    
+
+    <header>
+        <div class="cabecalho">
+            <div class="cabecalhoLogo">
+                <a href="#comeco"><img class = "cabecalhoLogoImagem" src="assets/LOGO.svg"></a>
+            </div>
+            <nav class = "cabecalhoMenu" id="comeco">
+                <a href="#inicio" class = cabecalhoMenuItem>Início</a>
+                <a href="#conheca" class = cabecalhoMenuItem>Conheça a <strong>UTFPR</strong></a>
+                <a href="#cursos" class = cabecalhoMenuItem>Cursos</a>
+                <a href="#ej" class = cabecalhoMenuItem>EJ</a>
+            </nav>
+        </div>
     </header>
    
     <main class = "conteudo" id="inicio">
@@ -47,9 +58,8 @@
                 <iframe class="conteudoConhecaUtfprVideoLink" width="1456" height="539" src="https://www.youtube.com/embed/9QVKVuefteU" title="UTFPR-CAMPO MOURÃO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
             </div>
         </section>
-        <div class="separacao"></div>
+        <div class="separacao" id="cursos"></div>
         <section class="conteudoCursos">
-            <img class = "conteudoCursosLivros" src="assets/livros.svg" >
             <h1 class="conteudoCursosTitulo">Cursos</h1>
             <div class="conteudoCursosBcc">
                 <img class="conteudoCursosImagem" src="assets/bcc.svg">
@@ -60,7 +70,7 @@
                 </div>
                 
             </div>
-            <div class="conteudoCursosAlimentos">
+            <div class="conteudoCursosAlimentos"    >
                 <img class="conteudoCursosImagem" src="assets/alimentos.svg">
                 <img class="conteudoCursosAlimentosDivisao" src="assets/Line 13.svg">
                 <div>

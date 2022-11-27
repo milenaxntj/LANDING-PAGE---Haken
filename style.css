@@ -14,31 +14,84 @@ body {
     margin: 0 auto;
 }
 
+body.dark{
+    background-color:  #222222;;
+}
+
+
+/*--------------------------------------------------------------
+# Icones Dark Mode
+--------------------------------------------------------------*/
+
+.iconeLua{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 30px;
+}
+
+.iconeSol{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 30px;
+    opacity: 0;
+}
+
+.dark.iconeLua{
+    opacity: 0;
+}
+
+.dark.iconeSol{
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+nav a{
+    color: #000000;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+}
 
 .cabecalho{
+    padding: 10px 50px 5px 40px;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 9px;
-    padding-left: 46px;
-    gap: 1100px;
+    justify-content: space-between;
+        
+}
+
+.cabecalhoLogo{
+    float: left;
+    text-align: left;
+}
+
+.cabecalhoLogoImagem{
+    width: 80px;
 }
 
 .cabecalhoMenu{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #000000;
     display: flex;
     gap: 74px;
-    text-align: left;
-    position: absolute;
-    right: 5%;
+    float: right;
 }
 
+.dark.cabecalhoMenu{
+    color: #ffffff;
+}
 @media (max-width: 850px) {
     .cabecalhoMenu {
-        position: absolute;
         right: 90px;
         font-size: 15px;
         gap: 50px;
@@ -51,19 +104,28 @@ body {
     }
 }
 
+/*--------------------------------------------------------------
+# Conteudo Principal
+--------------------------------------------------------------*/
+
+
 .conteudo{
     display: flex;
     flex-direction: column;
 }
 
 .conteudoPrincipal {
-    position: relative;
     width: 100%;
     padding: 2%;
+    margin-top: 60px;
     background: #F1CB30;
     display: flex;
     top: 10%;
     align-items: center;
+}
+
+.dark.conteudoPrincipal{
+    background-color: #000000;
 }
 .conteudoPrincipalImagem{
     height: 10%;
@@ -97,6 +159,10 @@ body {
     font-size: 64px;
     line-height: 88px;
     color: #1F1E21;
+}
+
+.dark.conteudoPrincipalEscritoTitulo{
+    color: #ffffff;
 }
 
 .conteudoPrincipalEscritoSubtitulo{
@@ -190,11 +256,7 @@ body {
 .conteudoConhecaUtfprVideoLink{
     width: 716px;
     height: 382px;
-}
-
-.separacao{
-    border-top: 140px solid #ffffff;
-    width: 95px;
+    margin-bottom: 165px;
 }
 
 .conteudoCursos{
@@ -449,6 +511,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
 }
 
 .rodapeLogo{
