@@ -91,14 +91,9 @@ header{
     color: #ffffff;
 }
 
-.cabecalhoMenuItem{
-    
-}
-
 .cabecalhoMenuItem:hover{
-    background-color: #F1CB30;
-    
-}
+    border-bottom: 3px solid #F1CB30;
+}   
 
 @media (max-width: 850px) {
     .cabecalhoMenu {
@@ -345,8 +340,6 @@ header{
     background-color: #E3E3E3;
     padding: 2%;
     border-radius: 10px;
-
-    
 }
 
 .conteudoEjEscrito{
@@ -370,7 +363,7 @@ header{
 .conteudoEjEscritoMais{
     font-size: 13.4896px;
     line-height: 16px;
-    color: #1E1E1E;
+    color: #0a0041;
 }
 
 .conteudoEjDiv2{
