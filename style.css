@@ -66,7 +66,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-        
+
 }
 
 .cabecalhoLogo{
@@ -90,6 +90,16 @@ header{
 .dark.cabecalhoMenu{
     color: #ffffff;
 }
+
+.cabecalhoMenuItem{
+    
+}
+
+.cabecalhoMenuItem:hover{
+    background-color: #F1CB30;
+    
+}
+
 @media (max-width: 850px) {
     .cabecalhoMenu {
         right: 90px;
@@ -276,7 +286,7 @@ header{
     color: #1F1E21;
 }
 
-.conteudoCursosBcc{
+.conteudoCursosItens{
     display: flex;
     flex-direction: row;
     gap: 60px;
@@ -284,151 +294,17 @@ header{
     justify-content: center;
 }
 
-
-.conteudoCursosBccTitulo{
+.conteudoCursosItensTitulo{
     padding-bottom: 15px;
     font-size: 20px;
 }
 
-.conteudoCursosBccTexto{
+.conteudoCursosItensTexto{
     padding-bottom: 100px;
     font-weight: 400;
     font-size: 16px;
     width: 489px;
     height: 77px;
-}
-
-.conteudoCursosAlimentos{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosAlimentosTitulo{
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.conteudoCursosAlimentosTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-.conteudoCursosAmbiental{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosAmbientalTitulo{
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.conteudoCursosAmbientalTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-
-.conteudoCursosCivil{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosCivilTitulo{
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.conteudoCursosCivilTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-
-.conteudoCursosLicenciatura{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosLicenciaturaTitulo{
-    padding-bottom: 15px;
-    font-size: 20px;
-}
-
-.conteudoCursosLicenciaturaTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-
-.conteudoCursosEletronica{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosEletronicaTitulo{
-    padding-bottom: 15px;
-    font-size: 20px;
-}
-
-.conteudoCursosEletronicaTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-.conteudoCursosTecnologia{
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    align-items: center;
-    justify-content: center;
-}
-
-.conteudoCursosTecnologiaTitulo{
-    padding-bottom: 15px;
-    font-size: 20px;
-}
-
-.conteudoCursosTecnologiaTexto{
-    padding-bottom: 100px;
-    font-weight: 400;
-    font-size: 16px;
-    width: 489px;
-    height: 77px;
-}
-
-.conteudoCursosImagem{
-    border-radius: 10px;
 }
 
 .conteudoCursosLivros {
