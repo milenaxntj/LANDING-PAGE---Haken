@@ -66,11 +66,9 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .cabecalhoLogo{
-    float: left;
     text-align: left;
 }
 
@@ -84,7 +82,6 @@ header{
     font-size: 14px;
     display: flex;
     gap: 74px;
-    float: right;
 }
 
 .dark.cabecalhoMenu{
@@ -92,7 +89,7 @@ header{
 }
 
 .cabecalhoMenuItem:hover{
-    border-bottom: 3px solid #F1CB30;
+    color: #808080;
 }   
 
 @media (max-width: 850px) {
@@ -127,6 +124,7 @@ header{
     display: flex;
     top: 10%;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .dark.conteudoPrincipal{
