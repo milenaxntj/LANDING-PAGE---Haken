@@ -124,14 +124,13 @@ header{
 }
 
 .conteudoPrincipal {
-    width: 1000%;
-    padding: 2%;
-    margin-top: 60px;
-    background: #F1CB30;
+
+    background-color: #F1CB30;
     display: flex;
-    top: 10%;
-    flex-direction: row ;
+    flex-direction: row;
     align-items: center;
+    margin-top: 5%;
+    padding: 2%;
 }
 
 
@@ -145,10 +144,8 @@ header{
 
 @media (max-width: 346px){
     .conteudoPrincipal{
-        display: flex;
+        display:block;
         align-items: center;
-        justify-content: flex-start;
-        
     }
 }
 @media (max-width: 1500px) {
@@ -167,8 +164,15 @@ header{
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding-top: 0px;
-    padding-left: 243px;
+    padding-left: 150px;
+}
+
+@media (max-width: 346px){
+    .conteudoPrincipalEscrito{
+        padding-left: 10px;
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
 }
 
 .conteudoPrincipalEscritoTitulo{
@@ -176,9 +180,16 @@ header{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 64px;
-    line-height: 88px;
     color: #1F1E21;
 }
+
+@media (max-width: 346px){
+    .conteudoPrincipalEscritoTitulo{
+        width: 400px;
+        height: 102px;
+        font-size: 40px;
+    }
+
 
 .dark.conteudoPrincipalEscritoTitulo{
     color: #ffffff;
@@ -192,6 +203,20 @@ header{
     line-height: 19px;
     letter-spacing: 0.02em;
     display: flex;
+}
+
+@media (max-width: 346px){
+    .conteudoPrincipalEscritoSubtitulo{
+        width: 300px;
+        height: 126px;
+    }
+}
+
+@media (max-width: 346px){
+    .conteudoPrincipalImagem{
+        width: 300px;
+        padding-left: 10px;
+    }
 }
 
 .conteudoPrincipalEscritoBotao{
@@ -404,4 +429,5 @@ header{
     font-weight: 400;
     font-size: 15px;
     padding-top: 1px;
+
 }
