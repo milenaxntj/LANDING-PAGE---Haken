@@ -124,14 +124,16 @@ header{
 }
 
 .conteudoPrincipal {
-    width: 100%;
+    width: 1000%;
     padding: 2%;
     margin-top: 60px;
     background: #F1CB30;
     display: flex;
     top: 10%;
+    flex-direction: row ;
     align-items: center;
 }
+
 
 .dark.conteudoPrincipal{
     background-color: #000000;
@@ -141,6 +143,14 @@ header{
     padding-left: 65%;
 }
 
+@media (max-width: 346px){
+    .conteudoPrincipal{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+}
 @media (max-width: 1500px) {
     .conteudoPrincipalImagem {
         padding-left: 20%
@@ -149,7 +159,7 @@ header{
 
 @media (max-width: 1200px) {
     .conteudoPrincipalImagem {
-        display: none;
+        flex-direction: column;
     }
 }
   
