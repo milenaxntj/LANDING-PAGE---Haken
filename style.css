@@ -124,7 +124,7 @@ header{
 }
 
 .conteudoPrincipal {
-
+    width: 1000%;
     background-color: #F1CB30;
     display: flex;
     flex-direction: row;
@@ -133,24 +133,26 @@ header{
     padding: 2%;
 }
 
+@media (max-width: 700px){
+    .conteudoPrincipal{
+        display:block;
+        align-items: center;
+
+    }
+}
 
 .dark.conteudoPrincipal{
     background-color: #000000;
-}
+}   
 .conteudoPrincipalImagem{
     height: 10%;
     padding-left: 65%;
 }
 
-@media (max-width: 346px){
-    .conteudoPrincipal{
-        display:block;
-        align-items: center;
-    }
-}
+
 @media (max-width: 1500px) {
     .conteudoPrincipalImagem {
-        padding-left: 20%
+        padding-left: 20%;
     }
 }
 
@@ -159,7 +161,14 @@ header{
         flex-direction: column;
     }
 }
-  
+
+@media (max-width: 700px){
+    .conteudoPrincipalImagem{
+        width: 300px;
+        padding-left: 10px;
+    }
+}
+
 .conteudoPrincipalEscrito {
     display: flex;
     flex-direction: column;
@@ -167,13 +176,15 @@ header{
     padding-left: 150px;
 }
 
-@media (max-width: 346px){
+
+@media (max-width: 700px){
     .conteudoPrincipalEscrito{
         padding-left: 10px;
         padding-top: 70px;
         padding-bottom: 30px;
     }
 }
+
 
 .conteudoPrincipalEscritoTitulo{
     width: 577px;
@@ -183,12 +194,15 @@ header{
     color: #1F1E21;
 }
 
-@media (max-width: 346px){
+
+@media (max-width: 700px){
     .conteudoPrincipalEscritoTitulo{
-        width: 400px;
+        width: 300px;
         height: 102px;
-        font-size: 40px;
+        font-size: 25px;
+        text-align: center;
     }
+}
 
 
 .dark.conteudoPrincipalEscritoTitulo{
@@ -205,22 +219,14 @@ header{
     display: flex;
 }
 
-@media (max-width: 346px){
+@media (max-width: 700px){
     .conteudoPrincipalEscritoSubtitulo{
         width: 300px;
         height: 126px;
     }
 }
 
-@media (max-width: 346px){
-    .conteudoPrincipalImagem{
-        width: 300px;
-        padding-left: 10px;
-    }
-}
-
 .conteudoPrincipalEscritoBotao{
-
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 14px;
@@ -245,7 +251,7 @@ header{
 }
 
 .conhecaUtfprEscrito{
-    top: 627px;
+    padding-top: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,6 +267,13 @@ header{
     
 }
 
+@media (max-width: 700px){
+    .conhecaUtfprEscritoTitulo{
+        width: 300px;
+        font-size: 18px;
+    }
+}
+
 .conhecaUtfprEscritoDivisao{
     border-top: 4px solid #F0C82D;
     width: 97px;
@@ -274,6 +287,13 @@ header{
     width: 649px;
     text-align: center;
     color: #363636;
+}
+
+@media (max-width: 700px){
+    .conhecaUtfprEscritoSubtitulo{
+        font-size: 15px;
+        width: 350px;
+    }
 }
  .conheçaUtfprGaleriaImagens{
     padding: 45px;
@@ -299,6 +319,13 @@ header{
     width: 716px;
     height: 382px;
     margin-bottom: 165px;
+}
+
+@media (max-width: 700px){
+    .conteudoConhecaUtfprVideoLink{
+        width: 300px;
+        height: 200px;
+    }
 }
 
 .conteudoCursos{
