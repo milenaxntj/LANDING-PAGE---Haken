@@ -24,33 +24,6 @@ html{
 }
 
 /*--------------------------------------------------------------
-# Icones Dark Mode
---------------------------------------------------------------*/
-
-.iconeLua{
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    width: 30px;
-}
-
-.iconeSol{
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    width: 30px;
-    opacity: 0;
-}
-
-.dark.iconeLua{
-    opacity: 0;
-}
-
-.dark.iconeSol{
-    opacity: 1;
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 
@@ -105,7 +78,7 @@ header{
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
     .cabecalhoMenu {
         display: none;
     }
@@ -124,7 +97,6 @@ header{
 }
 
 .conteudoPrincipal {
-    width: 1000%;
     background-color: #F1CB30;
     display: flex;
     flex-direction: row;
@@ -133,11 +105,21 @@ header{
     padding: 2%;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoPrincipal{
         display:block;
         align-items: center;
+        background-color: #F1CB30;
+        margin-top: 5%;
+    }
+}
 
+@media (max-width: 800px){
+    .conteudoPrincipal{
+        display:grid;
+        background-color: #F1CB30;
+        padding-left: 10%;
+        margin-top: 10%;
     }
 }
 
@@ -162,7 +144,7 @@ header{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoPrincipalImagem{
         width: 300px;
         padding-left: 10px;
@@ -177,7 +159,7 @@ header{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoPrincipalEscrito{
         padding-left: 10px;
         padding-top: 70px;
@@ -195,7 +177,7 @@ header{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoPrincipalEscritoTitulo{
         width: 300px;
         height: 102px;
@@ -219,7 +201,7 @@ header{
     display: flex;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoPrincipalEscritoSubtitulo{
         width: 300px;
         height: 126px;
@@ -267,7 +249,7 @@ header{
     
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conhecaUtfprEscritoTitulo{
         width: 300px;
         font-size: 18px;
@@ -289,7 +271,7 @@ header{
     color: #363636;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conhecaUtfprEscritoSubtitulo{
         font-size: 15px;
         width: 350px;
@@ -321,7 +303,7 @@ header{
     margin-bottom: 165px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 500px){
     .conteudoConhecaUtfprVideoLink{
         width: 300px;
         height: 200px;
@@ -338,6 +320,16 @@ header{
     font-family: 'Poppins', sans-serif;
 }   
 
+
+@media (max-width: 500px){
+    .conteudoCursos{
+        background: #F1CB30;
+        padding: 40%;
+
+    }
+}
+
+
 .conteudoCursosTitulo{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -353,9 +345,32 @@ header{
     justify-content: center;
 }
 
+@media (max-width: 500px){
+    .conteudoCursosItens{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        text-align: center;
+        gap: 50px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .conteudoCursosItensDivisao{
+        display: none;
+    }
+}
 .conteudoCursosItensTitulo{
     padding-bottom: 15px;
     font-size: 20px;
+}
+
+@media (max-width: 500px){
+    .conteudoCursosImagem{
+        padding-top: 60px;
+        width: 300px;
+    }
 }
 
 .conteudoCursosItensTexto{
@@ -364,6 +379,12 @@ header{
     font-size: 16px;
     width: 489px;
     height: 77px;
+}
+
+@media (max-width: 500px){
+    .conteudoCursosItensTexto{
+        width: 300px;
+    }
 }
 
 .conteudoCursosLivros {
