@@ -14,14 +14,11 @@ body {
     margin: 0 auto;
 }
 
-body.dark{
-    background-color:  #222222;;
-}
-
 
 html{
     scroll-behavior: smooth;
 }
+
 
 /*--------------------------------------------------------------
 # Header
@@ -61,30 +58,17 @@ header{
     gap: 74px;
 }
 
-
-.dark.cabecalhoMenu{
-    color: #ffffff;
-}
-
 .cabecalhoMenuItem:hover{
     color: #808080;
 }   
 
-@media (max-width: 850px) {
-    .cabecalhoMenu {
-        right: 90px;
-        font-size: 15px;
-        gap: 50px;
-    }
-}
 
-@media (max-width: 500px) {
-    .cabecalhoMenu {
+/*celular*/
+@media (max-width: 500px){
+    .cabecalhoMenuItem{
         display: none;
     }
 }
-
-
 
 /*--------------------------------------------------------------
 # Conteudo Principal
@@ -97,6 +81,7 @@ header{
 }
 
 .conteudoPrincipal {
+    width: 100%;
     background-color: #F1CB30;
     display: flex;
     flex-direction: row;
@@ -106,48 +91,8 @@ header{
 }
 
 @media (max-width: 500px){
-    .conteudoPrincipal{
-        display:block;
-        align-items: center;
-        background-color: #F1CB30;
-        margin-top: 5%;
-    }
-}
-
-@media (max-width: 800px){
-    .conteudoPrincipal{
-        display:grid;
-        background-color: #F1CB30;
-        padding-left: 10%;
-        margin-top: 10%;
-    }
-}
-
-.dark.conteudoPrincipal{
-    background-color: #000000;
-}   
-.conteudoPrincipalImagem{
-    height: 10%;
-    padding-left: 65%;
-}
-
-
-@media (max-width: 1500px) {
-    .conteudoPrincipalImagem {
-        padding-left: 20%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .conteudoPrincipalImagem {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 500px){
     .conteudoPrincipalImagem{
-        width: 300px;
-        padding-left: 10px;
+        display: none;
     }
 }
 
@@ -395,6 +340,7 @@ header{
     top: 1823px;
 }
 
+
 .conteudoEj{
     padding-top: 140px;
     font-family: 'Poppins', sans-serif;
@@ -410,12 +356,21 @@ header{
     font-weight: 800;
 }
 
+
 .conteudoEjDiv{
     display: flex;
     flex-direction: row;
     padding-top: 80px;
     gap: 58px;
 }
+
+@media (max-width: 600px) {
+    .conteudoEjDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 .conteudoEjItens{
     display: flex;
@@ -451,6 +406,7 @@ header{
     color: #0a0041;
 }
 
+
 .conteudoEjDiv2{
     display: flex;
     flex-direction: row;
@@ -458,6 +414,12 @@ header{
     gap: 58px;
 }
 
+@media (max-width: 500px){
+    .conteudoEjDiv2{
+        display: flex;
+        flex-direction: column;
+    }
+}
 .rodape{
     background: #F1CB30;
     display: flex;
