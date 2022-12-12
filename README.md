@@ -12,7 +12,7 @@
 
 <h4 align="center">Guia UTFPR é uma guia com algumas curiosidades e informações explicadas de forma clara e simples sobre a UTFPR - campus Campo Mourão, o objetivo da página é informar possíveis futuros estudantes ou pessoas que já estudam na UTFPR e tem curiosidade de conhecer mais sobre o campus</h4>
 
-<img align="center" src="assets/pagina_inicial.png" width="100%">
+<img align="center" src="assets/pagina_inicial.jpg" width="100%">
 
 <h2 align="center"> <strong> Tecnologias utilizadas </strong> </h2>
 
